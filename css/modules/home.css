@@ -1,0 +1,25 @@
+.home {
+    background-image: url('../../images/bg-hero-desktop.svg');
+    background-color: var(--veryPaleCyan);
+    height: 94vh;
+}
+
+.pattern {
+    margin: 0 5rem;
+}
+
+.header {
+    height: 8rem;
+    display: flex;
+    align-items: center;
+}
+
+.navigation-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#button-home {
+    background-color: white;
+}
