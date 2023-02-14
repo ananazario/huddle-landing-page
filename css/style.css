@@ -1,5 +1,66 @@
-@import './modules/reset.css';
-@import './modules/variaveis.css';
-@import './modules/home.css';
-@import './modules/initial.css';
-@import './modules/footer.css';
+@import "./modules/reset.css";
+@import "./modules/variaveis.css";
+@import "./modules/home.css";
+@import "./modules/initial.css";
+@import "./modules/footer.css";
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.firstblock {
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+.firstblock p {
+  font-size: 16px;
+  font-weight: 100;
+  display: flex;
+  padding: 10px;
+}
+.firstblock img {
+  max-width: 100px;
+  float: right;
+}
+
+.secondblock {
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+.secondblock p {
+  font-size: 16px;
+  font-weight: 100;
+  display: flex;
+  padding: 10px;
+}
+.secondblock img {
+  max-width: 100px;
+  padding-left: 50px;
+  float: left;
+  padding: 10px;
+}
+.thirdblock {
+  border: 1px solid grey;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+.thirdblock p {
+  font-size: 16px;
+  font-weight: 100;
+  display: flex;
+  padding: 10px;
+}
+.thirdblock img {
+  max-width: 100px;
+  padding-left: 50px;
+  float: right;
+  padding: 10px;
+}
