@@ -7,7 +7,7 @@
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 30px;
+  padding: 50px;
 }
 
 .firstblock {
@@ -15,18 +15,17 @@
   border-radius: 4px;
   padding: 10px;
   margin-bottom: 10px;
+  display: flex;
 }
 .escrito1 {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 100;
-  display: grid;
-  padding: 10px;
-  border: 1px solid;
+  padding: 40px;
   line-height: 1.4;
+  margin-right: 50px;
 }
 .firstblock img {
-  max-width: 300px;
-  display: flex;
+  max-width: 200px;
 }
 
 .secondblock {
@@ -34,35 +33,37 @@
   border-radius: 4px;
   padding-bottom: 20px;
   margin-bottom: 10px;
-  margin-top: 40px;
-}
-.secondblock p {
-  font-size: 16px;
-  font-weight: 100;
+  margin-top: 10px;
   display: flex;
-  padding: 10px;
+}
+.escrito2 {
+  font-size: 14px;
+  font-weight: 100;
+  padding: 40px;
+  line-height: 1.4;
+  margin-left: 50px;
 }
 .secondblock img {
-  max-width: 100px;
-  padding-left: 50px;
-  float: left;
+  max-width: 200px;
   padding: 10px;
+  float: right;
 }
 .thirdblock {
   border: 1px solid grey;
   border-radius: 4px;
-  font-size: 16px;
-  font-weight: 100;
   margin-bottom: 10px;
-}
-.thirdblock p {
-  font-size: 16px;
-  font-weight: 100;
   display: flex;
+}
+.escrito3 {
+  font-size: 14px;
+  font-weight: 100;
   padding: 10px;
+  padding: 40px;
+  line-height: 1.4;
+  margin-right: 50px;
 }
 .thirdblock img {
-  max-width: 100px;
+  max-width: 200px;
   padding-left: 50px;
   float: right;
   padding: 10px;
