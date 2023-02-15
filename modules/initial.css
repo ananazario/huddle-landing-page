@@ -1,0 +1,32 @@
+.initial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.initial-div {
+    width: 40%;
+}
+
+.title-initial {
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.initial-div p {
+    margin: 2rem 0 3rem;
+}
+
+.image-initial {
+    width: 50%;
+}
+
+.button {
+    padding: .5rem 2rem;
+    border-radius: 5rem;
+}
+
+.button-signin {
+    background-color: var(--pink);
+    color: var(--white);
+}
