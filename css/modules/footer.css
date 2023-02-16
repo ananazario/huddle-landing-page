@@ -1,6 +1,7 @@
 .footer {
   background-color: var(--veryDarkCyan);
   color: var(--white);
+  padding: 60px;
 }
 
 .footer p {
