@@ -28,10 +28,8 @@
 .element-container-list-icon {
   border: 1px solid white;
   border-radius: 30px;
-  padding: 10px;
+  padding: 8px;
   align-items: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .element-container-list img {
@@ -48,4 +46,15 @@
 
 .small-component-footer {
   font-size: 10px;
+  text-align: right;
+  margin: 40px;
+  padding: 10px;
+}
+
+.attribution {
+  font-size: 12px;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  opacity: 0.5;
 }
