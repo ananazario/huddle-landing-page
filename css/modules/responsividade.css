@@ -1,0 +1,37 @@
+@media screen and (max-width: 700px) {
+    .initial, .container-footer, .firstblock, .secondblock, .thirdblock {
+        flex-direction: column;
+    }
+
+    .image-initial {
+        margin-top: 2.5rem;
+    }
+
+    .escrito1, .escrito2, .escrito3 {
+       margin-right: 0;
+       margin-left: 0;
+    }
+
+    .initial-div, .image-initial, .firstblock, .secondblock, .thirdblock, .community {
+        width: 80vw;
+        text-align: center;
+    }
+
+    .secondblock img {
+        clear: both;
+        text-align: center;
+    }
+
+    .footer {
+        padding: 0;
+    }
+
+    .element-container-list {
+        gap: 20px;
+        width: 100%;
+    }
+
+    .small-component-footer {
+        text-align: center;
+    }
+}

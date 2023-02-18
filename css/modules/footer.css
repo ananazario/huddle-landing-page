@@ -48,8 +48,15 @@
 .small-component-footer {
   font-size: 10px;
   text-align: right;
-  margin: 40px;
   padding: 10px;
+}
+
+#social-media-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  height: 2rem;
 }
 
 .attribution {
