@@ -1,4 +1,13 @@
 @media screen and (max-width: 700px) {
+
+    .pattern:first-child {
+        margin: 0 1rem;
+    }
+
+    .logo {
+        height: 1.5rem;
+    }
+
     .initial, .container-footer, .firstblock, .secondblock, .thirdblock {
         flex-direction: column;
     }
@@ -17,13 +26,26 @@
         text-align: center;
     }
 
+    .firstblock, .secondblock, .thirdblock {
+        padding: 0;
+        align-items: center;
+    }
+
     .secondblock img {
         clear: both;
         text-align: center;
     }
 
+    .community {
+        margin-top: 50px;
+    } 
+
     .footer {
         padding: 0;
+    }
+
+    .logo-footer {
+        margin: 2rem 0 2rem 5rem;
     }
 
     .element-container-list {
